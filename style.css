@@ -1,0 +1,151 @@
+/*Animation <div> class gradient-background*/
+.gradient-background {
+    background: linear-gradient(300deg, #d4d4d4, #b9b1a0, #ffda90);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    height: 50vh
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+/*Dropdown Menu 'Portfolio' Animation*/
+.dropdown-menu a:hover { 
+  background-color: #ffeecc; font-weight: 600;
+}
+
+
+/*PAGE TITLES*/
+
+/*Certified Programmer Title*/
+.certified-programmer-title{
+  text-align: center;
+  padding-top: 10vh;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+/*Resume Title*/
+.resume {
+  text-align: center;
+  padding-top: 30vh;
+  padding-bottom: 5vh;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+/*Portfolio Title*/
+.portfolio {
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+/*Portfolio Title*/
+.contact-me {
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+
+/*PAGE SECTIONS*/
+
+.resume-part-1{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+}
+
+.resume-part-2{
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.portfolio-card-1, .portfolio-card-2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footer {
+  padding-top: 3vh;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*Email Div*/
+.email-me {
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5vh;
+}
+/*Email Card*/
+.email-card {
+  width: 67vh;
+}
+
+/*Social Media Icons Div*/
+.linkedin, .github {
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.linkedin {
+  padding-bottom: 2vh;
+}
+
+/*RESPONSIVENESS*/
+/*When screensize matches 576px...*/
+
+@media (max-width: 576px) {
+  /*Titles becomes 30px*/
+  .certified-programmer-title, .resume, .portfolio, .contact-me {
+    font-size: 30px;
+  }
+
+  /*Titles stays in relative location*/
+  .certified-programmer-title {
+    padding-top: 13vh;
+  }
+  .resume {
+    padding-top: 30vh;
+  }
+
+/*Resume part 1 padding-bottom 0px*/
+  .resume-part-1{
+    padding-bottom: 0px;
+  }
+
+/*Each Card padding-bottom by 10px*/
+  .col-sm-6 {
+    padding-bottom: 10px;
+  }
+
+/*Portfolio Card Div padding by 30px*/
+  .portfolio-card-1, .portfolio-card-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 10px;
+  }
+}
+

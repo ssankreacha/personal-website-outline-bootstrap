@@ -1,0 +1,14 @@
+Resume
+
+- About Me
+- Certifications
+- Technologies
+- Work Experience
+
+Portfolio Section
+
+- Description of projects built
+
+Contact Me Section
+
+- Footer (Including a link to my LinkedIn, GitHub, Email).
